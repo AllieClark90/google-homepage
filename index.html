@@ -1,36 +1,42 @@
 <!--DOCTYPE html-->
 <html lang= "en">
-  <header>
+  <head>
+    <title>Google Homepage</title>
     <meta charset= "ucf-8">
-    <link href= "https://fonts.googleapis.com/css?" family= "Gothic+A1" rel="stylesheet">
-  <title>Google Homepage</title>
-  </header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type= "text.css">
+  </head>
 <body id= "homepage" class= "container-fluid">
   <div class= "top">
-    <ul class = "fixed-scroll-nav nav nav-pills navbar-fixed-top">
-      <li><a id= "about">About</a></li>
-      <li><a id= "store">Store</a></li>
-      <li style= "float:right"><a class= "active" id= "images">Images</a></li>
-      <li style= "float:right"><a class= "active" id= "gmail">Gmail</a>     </li>
-     </ul>
+    <ul class = "nav navbar-top list-inline">
+      <li><a href= "#" id= "about">About</a></li>
+      <li><a href= "#" id= "store">Store</a></li>
+      <li style= "float:right"><a href= "#" class= "active" id= "images">Images</a></li>
+      <li style= "float:right"><a href= "#" class= "active" id= "gmail">Gmail</a>     </li>
+    </ul>
   </div>
   <div class= "googlelogo" style= "height:232px; margin-top:89px" align= center>
     <a><img src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt= "Google logo." id= "logo" style= "padding-top: 109px">
     </a>
-    <div class= "searchbar">
-      <br>
-      <div id="search-bar" class="search-bar">
-                <div class="search-wrapper">
-                    <input class="search-input" placeholder="" type="text" value="" name="search" id="search" size="40">
-                </div>
-      </div>
+  </div>
+    <div id="search-bar" class="input-group ibput-lg input-group-btn" align= "center">
+      <input class="search-input" placeholder="" type="text" value="" name="search" id="search" size="40">
     </div>
-        <div align= "center"><br>
-          <input type= "button" class="undersearch_back" value="Google Search"></input>
-          <input type= "button" class="undersearch_back" value="I'm Feeling Lucky"></input>
+        <div align= "center">
+          <button href="#" class="btn btn-info undersearch_back" role="button">Google Search</button>
+          <button href="#" class="btn btn-info undersearch_back" role="button">I'm Feeling Lucky</button>
         </div>
-        
-      
+<footer>
+  <nav class="navbar navbar-fixed-bottom container-fluid">
+    <ul>
+      <li><a href= "#" id= "advertising" style= "float:left">Advertising</li></a>
+      <li><a href= "#" id= "business" style= "float:left">Business</li></a>
+      <li><a href= "#" id= "settings" style= "float:right">Settings</li></a>
+      <li><a href= "#" id= "terms" style= "float:right">Terms</li></a>
+      <li><a href= "#" id= "privacy" style= "float:right">Privacy</li></a>
+    </ul>
+  </nav>
+</footer>
     </div>
   </div>
 </body>
